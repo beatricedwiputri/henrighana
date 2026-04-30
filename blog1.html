@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Health Equity and NTDs Research Institute, Ghana</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+  /* Quill size formatting */
+  .blog-body .ql-size-small {
+    font-size: 14px;
+  }
+
+  .blog-body .ql-size-large {
+    font-size: 22px;
+  }
+
+  .blog-body .ql-size-huge {
+    font-size: 30px;
+  }
+
+  /* Make full height layout */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Make main content take remaining space */
+  main {
+    flex: 1;
+  }
+  </style>
+  
+</head>
+<body>
+  <!-- TOP HEADER -->
+  <div class="topbar">
+    <div class="container">
+      <div class="logo">
+        <span>Health Equity, Religion, & NTDs Research Institute, Ghana</span>
+      </div>
+      <div class="email">
+        <a href="mailto:henrig2030@gmail.com" class="email">
+          <span class="icon">✉</span> henrig2030@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container">
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Focus Areas</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="team-godwin.html">Team</a></li>
+          <!-- <li><a href="news.html">News</a></li> -->
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- BLOG POST CONTENT -->
+<main class="post">
+  <div class="container" id="blogPostContainer">
+    <!-- JS will populate the content here -->
+  </div>
+</main>
+
+<script type="module" src="blog.js"></script>
+
+
+  <!-- Footer -->
+<footer class="footer-team">
+  <div class="container">
+    <p>Health Equity, Religion, & NTDs Research Institute, Ghana</p>
+    <ul class="footer-links">
+      <li><a href="scheduleappoinment.html">Schedule appoinment</a></li>
+      <li><a href="completeintake.html">Complete intake</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="privacypolicy.html">Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,  /* animation duration */
+      once: true       /* run only once per element */
+    });
+  </script>
+
+  <!-- JS -->
+  <script type="module" src="script.js"></script>
+  
+</body>
+</html>
